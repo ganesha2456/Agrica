@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moisture Level Tracker</title>
+   <style>
+    .gif{ position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+filter: blur(2px);}
+
+    button{
+       background-color:rgb(153, 191, 206) ; 
+       font-size: larger;
+       border-radius: 10px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+
+  box-shadow: 160 160px 160px 0 rgba(0,0,0,0.2), 100px 20px 0 rgba(0,0,0,0.19);
+}
+
+     button b a{
+        text-decoration: none;
+        color: black;
+     }   
+    
+    tr{
+        font-size:x-large;
+    }
+
+    table{
+        padding-left:35%;
+        padding-top:15% ;
+    }
+   </style>
+</head>
+<body>
+    <img src="Green - 40724.gif" class="gif">
+  <table border="0px solid white" cellspacing="0" height="250px" weight="800px">
+    
+    <tr>
+        <th colspan="2">
+            <h1>
+            Field selection 
+        </h1>
+    </th>
+    </tr>
+
+    <tr>
+        <th>Location:</th>
+        <td><input type="text"></td>
+    </tr>
+
+    <tr>
+        <th>Crop type:</th>
+        <td><select>
+            <option value=""></option><option>grains</option><option value="">vegetables</option><option value="">fruits</option>
+        </select></td>
+    </tr>
+    <tr>
+        <th>crop planted:</th>
+        <td><select><option value=""></option><option>rice</option></select></td>
+    </tr>
+
+    <tr>
+        <th>Field No.:</th>
+        <td><input type="number"></td>
+
+    </tr>
+    <tr>
+        <td colspan="">
+            <button><b>Save Field</b></button>
+        </td>
+        <th><button><b><a href="#">Add</a></b></button></th>
+    </tr> 
+
+</table>
+
+  <script src="script.js"></script>
+</body>
+</html>

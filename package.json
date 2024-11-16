@@ -1,0 +1,16 @@
+{
+  "name": "shakti_swaroop_sahoo",
+  "version": "1.0.0",
+  "description": "Agrica we have designed an agriculture oriented website \"AGRICA\" . For the uses like crop selection. ,water irrigation, weather alert  etc.. To  increase the efficiency of farming in India by digitalizing field work .encouraging young people to be involved in agriculture beyond the traditional hands on work                          Team members :1) Shakti Swaroop Sahoo    2) Abhisek Majhi   3) Pradyumna Jenamani    4) Riddhi Sharma",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3"
+  }
+}
